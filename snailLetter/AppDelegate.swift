@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  snailLetter
+//  com.ac.knu.helloworld
 //
-//  Created by CSP MOBILE LAB on 2018. 10. 30..
+//  Created by CSP MOBILE LAB on 2018. 9. 11..
 //  Copyright © 2018년 Test. All rights reserved.
 //
 

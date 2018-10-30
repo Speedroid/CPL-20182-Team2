@@ -12,6 +12,8 @@
 		27A317B02188087D0045F881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A317AE2188087D0045F881 /* Main.storyboard */; };
 		27A317B2218808810045F881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A317B1218808810045F881 /* Assets.xcassets */; };
 		27A317B5218808810045F881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A317B3218808810045F881 /* LaunchScreen.storyboard */; };
+		27A317BD218809520045F881 /* SnailUitlity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A317BC218809520045F881 /* SnailUitlity.swift */; };
+		27A317BF2188095B0045F881 /* WebInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A317BE2188095B0045F881 /* WebInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		27A317B1218808810045F881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27A317B4218808810045F881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27A317B6218808810045F881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27A317BC218809520045F881 /* SnailUitlity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnailUitlity.swift; sourceTree = "<group>"; };
+		27A317BE2188095B0045F881 /* WebInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		27A317A92188087D0045F881 /* snailLetter */ = {
 			isa = PBXGroup;
 			children = (
+				27A317BE2188095B0045F881 /* WebInfo.swift */,
+				27A317BC218809520045F881 /* SnailUitlity.swift */,
 				27A317AA2188087D0045F881 /* AppDelegate.swift */,
 				27A317AC2188087D0045F881 /* ViewController.swift */,
 				27A317AE2188087D0045F881 /* Main.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				27A317AD2188087D0045F881 /* ViewController.swift in Sources */,
 				27A317AB2188087D0045F881 /* AppDelegate.swift in Sources */,
+				27A317BF2188095B0045F881 /* WebInfo.swift in Sources */,
+				27A317BD218809520045F881 /* SnailUitlity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
