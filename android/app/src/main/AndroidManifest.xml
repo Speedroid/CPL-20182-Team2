@@ -37,6 +37,14 @@
             android:name=".AgreeinfoActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".ContactUsActivity"></activity>
+
+        <service android:name=".fcm.SnailFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/icon02" />
     </application>
 
 </manifest>
