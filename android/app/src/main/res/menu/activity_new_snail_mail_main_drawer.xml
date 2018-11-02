@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="INDEX">
+            <menu>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home_img"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_letter"
+            android:icon="@mipmap/letter_img"
+            android:title="편지 보내기" />
+        <item
+            android:id="@+id/nav_postcard"
+            android:icon="@mipmap/postcard_img"
+            android:title="엽서 보내기" />
+        <item
+            android:id="@+id/nav_military"
+            android:icon="@mipmap/military"
+            android:title="군화에게">
+        </item>
+        <item
+            android:id="@+id/nav_card"  
+            android:icon="@mipmap/card_img"
+            android:title="카드 보내기" />
+         <item
+             android:id="@+id/nav_card2"
+             android:icon="@mipmap/card2_img"
+             android:title="축하카드 보내기" />
+            </menu>
+        </item>
+        <item android:title="POST Office">
+        <menu>
+        <item
+            android:id="@+id/nav_postoffice"
+            android:icon="@mipmap/snailpost_img"
+            android:title="달팽이우체국" />
+        </menu>
+        </item>
+
+
+ß
+    </group>
+    <item android:title="SETTING">
+        <menu>
+            <item
+                android:id="@+id/nav_add_change"
+                android:icon="@mipmap/change_address_img"
+                android:title="주소변경" />
+            <item
+                android:id="@+id/nav_bank_info"
+                android:icon="@mipmap/bank_info"
+                android:title="입금 계좌정보" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@mipmap/question_img01"
+                android:title="고객문의" />
+
+        </menu>
+    </item>
+
+
+
+</menu>
