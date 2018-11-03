@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "200536580449",
+    "firebase_url": "https://newsnailmail2017-12-20.firebaseio.com",
+    "project_id": "newsnailmail2017-12-20",
+    "storage_bucket": "newsnailmail2017-12-20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200536580449:android:5f4729dbe8bd4d67",
+        "android_client_info": {
+          "package_name": "cspmbilelab.com.newsnailmail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200536580449-i1r6g4v6fsfchtbsera4i2t50jhgcpfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cspmbilelab.com.newsnailmail",
+            "certificate_hash": "e36d4002b257596cf3101e48da146677bebe49bb"
+          }
+        },
+        {
+          "client_id": "200536580449-mt2lkfg245cu02i4r05fcr9piv75sqbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpcSiMtXigh4caabLQY1Ns8QM-2hiE840"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200536580449-mt2lkfg245cu02i4r05fcr9piv75sqbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
